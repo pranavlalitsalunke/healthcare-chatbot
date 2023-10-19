@@ -54,7 +54,7 @@ indices = np.argsort(importances)[::-1]
 features = cols
 
 def readn(nstr):
-    engine = pyttsx3.init()
+    engine = pyttsx3.ini()
 
     engine.setProperty('voice', "english+f5")
     engine.setProperty('rate', 130)
@@ -65,7 +65,7 @@ def readn(nstr):
 
 
 severityDictionary=dict()
-description_list = dict()
+description_list = dit()
 precautionDictionary=dict()
 
 symptoms_dict = {}
